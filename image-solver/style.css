@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#mystery-pic {
+    width: 20px; /* Size of the pixelated area */
+    height: 20px; /* Size of the pixelated area */
+    margin: 20px auto;
+    border: 2px dashed #ccc;
+    background-size: cover;
+}
+
+#image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-item {
+    width: 100px; /* Adjust size for gallery images */
+    height: 100px; /* Adjust size for gallery images */
+    margin: 10px;
+    border: 2px solid #000;
+    cursor: pointer;
+    background-size: cover;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
